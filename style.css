@@ -1,0 +1,46 @@
+h1,h2,p{
+    color: brown;
+}
+
+ul li strong {
+    color: blueviolet;
+}
+
+h1 > strong{
+    color: chartreuse;
+}
+
+h2 + p {
+    color: chocolate;
+}
+
+p[align="center"]{
+    color: crimson;
+    border: dotted;
+}
+
+footer{
+    color: darkblue;
+}
+div{
+    height: 100vh;
+}
+button{
+    border: solid 2px;
+    border-color: blueviolet;
+    margin-left: 25px;
+    margin: 5px 10px 20px 30px;
+    padding: 5px 10px 5px 20px;
+    background-color: bisque;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    
+}
