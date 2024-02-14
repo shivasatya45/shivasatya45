@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(88, 86, 86);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+    align-items: center;
+    padding:0px 50px;
+    position: fixed;
+    z-index:1;
+}
+.logo{
+    padding-top: 05px;
+    padding-left:05px;
+}
+.menu {
+    list-style: none;
+    width: 65%;
+    display: flex;
+    justify-content: left;
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size:large;
+    color: #fff;
+    transition: 0.3sec ease;
+}
+.menu li a:hover {
+    color:#EF0000
+}
+.yoyo {
+    align-items:center;
+    display: flex;
+    margin-right: 0px;
+}
+.yoyo form {
+    display: flex;
+    margin-right: 0;
+}
+.yoyo input{
+    border-radius: 15px;
+    border: 1px  solid #ddd;
+    outline: none;
+    padding: 10px;
+    margin-right: 05px;
+    font-size: 19px;  
+}
+.yoyo input:hover {
+    border: 1px solid #70cda4;
+}
+.yoyo button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    color:#333;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.yoyo button:hover {
+    background-color:#EF0000;
+}
+.abc a {
+    text-decoration: none;
+    color:black
+}
+.abc a:hover{
+    color: #fff;
+}
